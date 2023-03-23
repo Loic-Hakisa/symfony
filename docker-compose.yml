@@ -1,0 +1,10 @@
+version: '3'
+services:
+  phpunit:
+    container_name: phpunit
+    build:
+      target: phpunit
+      context: .
+    volumes:
+      - .:/app
+    working_dir: /app
