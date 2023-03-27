@@ -14,6 +14,17 @@ Installation
   Support" (LTS) versions and has a [release process][6] that is predictable and
   business-friendly.
 
+Run all tests using docker
+------------
+
+* `docker-compose run phpunit`
+
+Run manual tests using docker
+------------
+* `docker compose run --entrypoint="sh" phpunit`
+* `composer install`
+* `./phpunit`
+
 Sponsor
 -------
 
